@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Illustrative geometry loosely placed in Bengaluru; not a surveyed boundary. -->
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample survey</name>
+    <Placemark>
+      <name>Park parcel</name>
+      <description>Polygon: area expected</description>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>
+        77.5900,12.9780,0 77.5990,12.9780,0 77.5990,12.9720,0 77.5900,12.9720,0 77.5900,12.9780,0
+      </coordinates></LinearRing></outerBoundaryIs></Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Access road</name>
+      <description>LineString: length expected</description>
+      <LineString><coordinates>77.5900,12.9750,0 77.5945,12.9760,0 77.5990,12.9750,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>Main gate</name>
+      <description>Point: no measurement</description>
+      <Point><coordinates>77.5900,12.9750,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
